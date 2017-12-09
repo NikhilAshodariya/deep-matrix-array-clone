@@ -1,5 +1,3 @@
-var basicFunc = require('./basicFunction');
-
 var deepClone =
   function() {
     function deepCloneObject(data) {
