@@ -31,14 +31,14 @@ var d = [
  ]
 
 // a = [1,2,3]
-a_copy = clone.deepCloneObject(a);
+a_copy = clone.deepCloneMatrix(a);
 a[0] = [65,43,24];
 console.log("-----------------printing a_copy ---------------------");
 console.log(a_copy);
 console.log("----------------printing a----------------------");
 console.log(a);
 
-d_copy = clone.deepCloneObject(d);
+d_copy = clone.deepCloneMatrix(d);
 d[0] = a;
 console.log("-----------------printing d_copy ---------------------");
 console.log(d_copy);
