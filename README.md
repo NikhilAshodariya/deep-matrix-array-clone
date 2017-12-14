@@ -25,8 +25,12 @@ Explain what these tests test and why
 
 ```
 var clone = require('matrix_deep_clone');
+```
+```
 var a = [[1,2,3],[4,5,6],[7,8,9]]
-clone.deepCloneObject(a);
+```
+```
+var a_copy = clone.deepCloneMatrix(a);
 ```
 
 ## Authors
