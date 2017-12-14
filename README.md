@@ -17,11 +17,18 @@ $ npm install matrix_deep_clone
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
+First install the module matrix_deep_clone then type
+```
+$ cd node_modules/matrix_deep_clone/
+```
+After going inside the library type
+```
+$ npm test
+```
+The above command will run check.js.
+check.js creates a 2D Matrix and then clones it using the library and then modifies the first row of original 2D matrix. On modifying the original copy the new copy does not changes thus successfully performing deep clone on matrix. A similary thing is done in check.js for a 3D matrix
 
-### Break down into end to end tests
-
-Explain what these tests test and why
+### Breaking down into end to end tests
 
 ```
 var clone = require('matrix_deep_clone');
